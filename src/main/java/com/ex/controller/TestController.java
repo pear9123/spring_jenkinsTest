@@ -24,4 +24,10 @@ public class TestController {
 		model.addAttribute("msg", "T3");
 		return "test2";
 	}
+	
+	@RequestMapping("/test4")
+	public String test4(Model model) {
+		model.addAttribute("msg", "T4");
+		return "test2";
+	}
 }
