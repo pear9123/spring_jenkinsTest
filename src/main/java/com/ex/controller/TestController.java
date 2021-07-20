@@ -18,4 +18,10 @@ public class TestController {
 		model.addAttribute("msg", "D2Model");
 		return "test2";
 	}
+	
+	@RequestMapping("/test3")
+	public String test3(Model model) {
+		model.addAttribute("msg", "T3");
+		return "test2";
+	}
 }
